@@ -6,4 +6,6 @@
 // import './types/enums_type';
 
 // import './types/functions';
-import './types/functions_type';
+// import './types/functions_type';
+
+import './types/objects';
