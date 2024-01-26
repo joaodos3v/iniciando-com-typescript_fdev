@@ -1,1 +1,2 @@
-import './types/variables';
+// import './types/variables';
+import './types/array';
