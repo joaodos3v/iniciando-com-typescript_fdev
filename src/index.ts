@@ -5,4 +5,5 @@
 // import './types/enums_const';
 // import './types/enums_type';
 
-import './types/functions';
+// import './types/functions';
+import './types/functions_type';
