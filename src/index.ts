@@ -3,4 +3,6 @@
 
 // import './types/enums';
 // import './types/enums_const';
-import './types/enums_type';
+// import './types/enums_type';
+
+import './types/functions';
