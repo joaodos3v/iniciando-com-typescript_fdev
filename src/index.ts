@@ -8,4 +8,5 @@
 // import './types/functions';
 // import './types/functions_type';
 
-import './types/objects';
+// import './types/objects';
+import './types/product';
