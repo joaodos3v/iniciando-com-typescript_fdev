@@ -9,4 +9,5 @@
 // import './types/functions_type';
 
 // import './types/objects';
-import './types/product';
+// import './types/product';
+import './types/union_types';
