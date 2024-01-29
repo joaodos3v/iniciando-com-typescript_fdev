@@ -1,3 +1,6 @@
+/**
+ * [TYPES]
+ */
 // import './types/variables';
 // import './types/array';
 
@@ -15,4 +18,9 @@
 // import './types/null';
 
 // import './types/final_challenge';
-import './types/final_challenge_answer';
+// import './types/final_challenge_answer';
+
+/**
+ * [OO]
+ */
+import './oo/classe_1';
