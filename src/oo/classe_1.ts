@@ -20,3 +20,7 @@ c1.id = 123;
 c1.name = 'Iniciando com TypeScript';
 console.log(c1.id);
 console.log(c1.name);
+
+// Nota: esse export transforma o arquivo em um módulo e dá *escopo* a ele, o que "engana" o Typescript
+//  e previne que ele fique apontando erros porque estamos usando o mesmo nome de variável em diferentes arquivos.
+export {};
