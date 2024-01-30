@@ -1,5 +1,5 @@
 class Course {
-  private _id: number;
+  readonly id: number; // Se um atributo não deve ser alterado, podemos declará-lo como readonly
   name: string | undefined;
 
   constructor(id: number) {
@@ -7,12 +7,17 @@ class Course {
       throw new Error('Invalid ID');
     }
 
-    this._id = id;
+    this.id = id;
   }
 
-  get id() {
-    return this._id;
-  }
+  /**
+   get id() {
+      // this._id++; // Desde que nosso atributo passou a ser readonly, essa linha não funciona mais
+      return this._id;
+    }
+    // Nota: além disso, por ser um atributo readonly que não poderá ser alterado, não precisamos mais
+    //  do getter para consumí-lo e podemos buscar diretamente do objeto.
+   */
 }
 
 const c1 = new Course(123);
