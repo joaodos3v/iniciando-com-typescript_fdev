@@ -30,4 +30,9 @@
 // import './oo/classe_3_answer';
 // import './oo/classe_4';
 // import './oo/desafio_estatico';
-import './oo/desafio_estatico_resposta';
+// import './oo/desafio_estatico_resposta';
+
+/**
+ * [Interfaces]
+ */
+import './interfaces/user';
