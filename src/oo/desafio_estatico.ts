@@ -8,3 +8,5 @@ class DesafioEstatico {
 }
 
 DesafioEstatico.executar(new DesafioEstatico());
+
+export {};
