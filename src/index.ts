@@ -28,4 +28,5 @@
 // import './oo/classe_2_constructorWithParameters';
 // import './oo/classe_3';
 // import './oo/classe_3_answer';
-import './oo/classe_4';
+// import './oo/classe_4';
+import './oo/desafio_estatico';
