@@ -38,4 +38,9 @@
 // import './interfaces/user';
 // import './interfaces/user_required_vs_optional';
 // import './interfaces/flexible';
-import './interfaces/function';
+// import './interfaces/function';
+
+/**
+ * [Pilares OO - Exercícios]
+ */
+import './pilares_oo/encapsulamento';
